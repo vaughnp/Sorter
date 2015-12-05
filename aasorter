@@ -1,0 +1,574 @@
+
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=c65abde67782d19ef9d6ba2e8362ef98"></script>
+
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=23a92b4d68873f0a4c3da4fee4cc3958"></script>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>Ace Attorney Character Sorter</title>
+<noscript></noscript><!-- --><script type="text/javascript" src="http://www.freewebs.com/p.js"></script><script type="text/javascript">
+<!--
+//*********************************************************
+
+//*********************************************************
+
+
+var namMember = new Array(
+
+"Phoenix Wright<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/phoenix.png\">",
+"Mia Fey<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/mia.png\">",
+"Maya Fey<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/maya.png\">",
+"Miles Edgeworth<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/edgeworth.png\">",
+"Dick Gumshoe<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/gumshoe.png\">",
+"Larry Butz<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/larry.png\">",
+"Winston Payne<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/payne1.png\">",
+"Cindy Stone<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/cindy.png\">",
+"Frank Sahwit<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/sahwit.png\">",
+"April May<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/april.png\">",
+"Redd White<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/redd.png\">",
+"Bellboy<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/bellboy.png\">",
+"Marvin Grossberg<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/grossberg.png\">",
+"Gregory Edgeworth<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/gregory.png\">",
+"Misty Fey<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/misty.png\">",
+"The Judge<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/judge.png\">",
+"Will Powers<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/powers.png\">",
+"Jack Hammer<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/hammer.png\">",
+"Cody Hackins<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/cody.png\">",
+"Penny Nichols<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/penny.png\">",
+"Wendy Oldbag<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/oldbag.png\">",
+"Sal Manella<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/sal.png\">",
+"Dee Vasquez<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/dee.png\">",
+"Manfred von Karma<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/karma.png\">",
+"Lotta Hart<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/lotta.png\">",
+"Old Man (Yanni Yogi)<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/yanni.png\">",
+"Robert Hammond<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/hammond.png\">",
+"Missile<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/missile.png\">",
+"Polly<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/evidence/sayuri.png\">",
+"Lana Skye<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/lana.png\">",
+"Ema Skye<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/ema.png\">",
+"Damon Gant<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/gant.png\">",
+"Jake Marshall<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/jake.png\">",
+"Angel Starr<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/angel.png\">",
+"Mike Meekins<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/meekins.png\">",
+"Bruce Goodman<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/goodman.png\">",
+"Joe Darke<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/darke.png\">",
+"Neil Marshall<br /><br /><img width=\"100px\" src=\"http://www.court-records.net/mugshot/neil%20marshal.png\">"
+
+);
+//*********************************************************
+
+var lstMember = new Array();
+var parent = new Array();
+var equal = new Array();
+var rec = new Array();
+var cmp1,cmp2;
+var head1,head2;
+var nrec;
+
+var numQuestion;
+var totalSize;
+var finishSize;
+var finishFlag;
+
+//The initialization of the variable+++++++++++++++++++++++++++++++++++++++++++++
+function initList(){
+    var n = 0;
+    var mid;
+	var i;
+
+	//The sequence that you should sort
+	lstMember[n] = new Array();
+	for (i=0; i<namMember.length; i++) {
+		lstMember[n][i] = i;
+	}
+	parent[n] = -1;
+	totalSize = 0;
+	n++;
+
+	for (i=0; i<lstMember.length; i++) {
+		//And element divides it in two/more than two
+		//Increase divided sequence of last in first member
+		if(lstMember[i].length>=2) {
+			mid = Math.ceil(lstMember[i].length/2);
+			lstMember[n] = new Array();
+			lstMember[n] = lstMember[i].slice(0,mid);
+			totalSize += lstMember[n].length;
+			parent[n] = i;
+			n++;
+			lstMember[n] = new Array();
+			lstMember[n] = lstMember[i].slice(mid,lstMember[i].length);
+			totalSize += lstMember[n].length;
+			parent[n] = i;
+			n++;
+		}
+	}
+
+	//Preserve this sequence
+	for (i=0; i<namMember.length; i++) {
+		rec[i] = 0;
+	}
+	nrec = 0;
+
+	//List that keeps your results
+	//Value of link initial
+	// Value of link initial
+	for (i=0; i<=namMember.length; i++) {
+		equal[i] = -1;
+	}
+
+	cmp1 = lstMember.length-2;
+	cmp2 = lstMember.length-1;
+	head1 = 0;
+	head2 = 0;
+	numQuestion = 1;
+	finishSize = 0;
+	finishFlag = 0;
+}
+
+//&#12522;&#12473;&#12488;&#12398;&#12477;&#12540;&#12488;+++++++++++++++++++++++++++++++++++++++++++
+//flag&#65306;Don't know characters
+//  -1&#65306;Chose the left
+//   0&#65306;Tie
+//   1&#65306;Chose the right
+function sortList(flag){
+	var i;
+	var str;
+
+	//rec preservation
+	if (flag<0) {
+		rec[nrec] = lstMember[cmp1][head1];
+		head1++;
+		nrec++;
+		finishSize++;
+		while (equal[rec[nrec-1]]!=-1) {
+			rec[nrec] = lstMember[cmp1][head1];
+			head1++;
+			nrec++;
+			finishSize++;
+		}
+	}
+	else if (flag>0) {
+		rec[nrec] = lstMember[cmp2][head2];
+		head2++;
+		nrec++;
+		finishSize++;
+		while (equal[rec[nrec-1]]!=-1) {
+			rec[nrec] = lstMember[cmp2][head2];
+			head2++;
+			nrec++;
+			finishSize++;
+		}
+	}
+	else {
+		rec[nrec] = lstMember[cmp1][head1];
+		head1++;
+		nrec++;
+		finishSize++;
+		while (equal[rec[nrec-1]]!=-1) {
+			rec[nrec] = lstMember[cmp1][head1];
+			head1++;
+			nrec++;
+			finishSize++;
+		}
+		equal[rec[nrec-1]] = lstMember[cmp2][head2];
+		rec[nrec] = lstMember[cmp2][head2];
+		head2++;
+		nrec++;
+		finishSize++;
+		while (equal[rec[nrec-1]]!=-1) {
+			rec[nrec] = lstMember[cmp2][head2];
+			head2++;
+			nrec++;
+			finishSize++;
+		}
+	}
+
+	//Processing after finishing with one list
+	if (head1<lstMember[cmp1].length && head2==lstMember[cmp2].length) {
+		//List the remainder of cmp2 copies, list cmp1 copies when finished scanning
+		while (head1<lstMember[cmp1].length){
+			rec[nrec] = lstMember[cmp1][head1];
+			head1++;
+			nrec++;
+			finishSize++;
+		}
+	}
+	else if (head1==lstMember[cmp1].length && head2<lstMember[cmp2].length) {
+		//List the remainder of cmp1 copies, list cmp2 copies when finished scanning
+		while (head2<lstMember[cmp2].length){
+			rec[nrec] = lstMember[cmp2][head2];
+			head2++;
+			nrec++;
+			finishSize++;
+		}
+	}
+
+	//When it arrives at the end of both lists
+	//Update a pro list
+	if (head1==lstMember[cmp1].length && head2==lstMember[cmp2].length) {
+		for (i=0; i<lstMember[cmp1].length+lstMember[cmp2].length; i++) {
+			lstMember[parent[cmp1]][i] = rec[i];
+		}
+		lstMember.pop();
+		lstMember.pop();
+		cmp1 = cmp1-2;
+		cmp2 = cmp2-2;
+		head1 = 0;
+		head2 = 0;
+
+		//Initialize the rec before performing the new comparison
+		if (head1==0 && head2==0) {
+			for (i=0; i<namMember.length; i++) {
+				rec[i] = 0;
+			}
+			nrec = 0;
+		}
+	}
+
+	if (cmp1<0) {
+		str = "Battle No."+(numQuestion-1)+"<br>"+Math.floor(finishSize*100/totalSize)+"% sorted.";
+		document.getElementById("battleNumber").innerHTML = str;
+
+		showResult();
+		finishFlag = 1;
+	}
+	else {
+		showImage();
+	}
+}
+
+//The results+++++++++++++++++++++++++++++++++++++++++++++++
+//&#38918;&#20301;=Rank/Grade/Position/Standing/Status
+//&#21517;&#21069;=Identification term
+function showResult() {
+	var ranking = 1;
+	var sameRank = 1;
+	var str = "";
+	var i;
+
+	str += "<table style=\"width:200px; font-size:12px; line-height:120%; margin-left:auto; margin-right:auto; border:1px solid #000; border-collapse:collapse\" align=\"center\">";
+	str += "<tr><td style=\"color:#ffffff; background-color:#000; text-align:center;\">Rank<\/td><td style=\"color:#ffffff; background-color:#000; text-align:center;\">Character<\/td><\/tr>";
+
+	for (i=0; i<namMember.length; i++) {
+		str += "<tr><td style=\"border:1px solid #000; text-align:right; padding-right:5px;\">"+ranking+"<\/td><td style=\"border:1px solid #000; padding-left:5px;\">"+namMember[lstMember[0][i]]+"<\/td><\/tr>";
+		if (i<namMember.length-1) {
+			if (equal[lstMember[0][i]]==lstMember[0][i+1]) {
+				sameRank++;
+			} else {
+				ranking += sameRank;
+				sameRank = 1;
+			}
+		}
+	}
+	str += "<\/table>";
+
+	document.getElementById("resultField").innerHTML = str;
+}
+
+//Indicates two elements to compare+++++++++++++++++++++++++++++++++++
+function showImage() {
+	var str0 = "Battle No."+numQuestion+"<br>"+Math.floor(finishSize*100/totalSize)+"% sorted.";
+	var str1 = ""+toNameFace(lstMember[cmp1][head1]);
+	var str2 = ""+toNameFace(lstMember[cmp2][head2]);
+
+	document.getElementById("battleNumber").innerHTML = str0;
+	document.getElementById("leftField").innerHTML = str1;
+	document.getElementById("rightField").innerHTML = str2;
+
+	numQuestion++;
+}
+
+//Convert numeric value into a name (emoticon)+++++++++++++++++++++++++++++++
+function toNameFace(n){
+	var str = namMember[n];
+
+	//Exclude the following comment when adding an emoticon
+	//Warning not to contradict an indext of namMember
+	/*
+	str += "<br>&#9472;&#9472;&#9472;&#9472;<br>";
+	switch(n) {
+		//case -1 Because it is a sample, delete it
+		case -1: str+="&#65288; ?&#8704;&#65344;&#65289;";break;
+		default: str+=""+n;
+	}
+	*/
+	return str;
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+/**********************************************************
+
+ When changing the style of the list, please edit here. 
+
+**********************************************************/
+//&#65328;&#12468;&#12471;&#12483;&#12463;=P Gothic
+#mainTable{
+	font-size: 16px;
+	font-family: '&#65325;&#65331; &#65328;&#12468;&#12471;&#12483;&#12463;',sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	width: 410px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 10px 5px;
+}
+#leftField{
+	width: 120px;
+	height: 150px;
+	border: 1px solid #000;
+}
+#rightField{
+	width: 120px;
+	height: 150px;
+	border: 1px solid #000;
+}
+.middleField{
+	width: 120px;
+	height: 150px;
+	border: 1px solid #000;
+}
+//-->
+<!--
+A{
+  text-decoration : none;
+}
+-->
+<!--
+a:hover{color:#99ccff;}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://img.shinobi.jp/tadaima/tdftad.css" />
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:title" content="ace attorney character sorter" />
+<meta property="og:url" content="http://aceattorneycharactersort.tumblr.com/?og=1" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="tumblr-feed:tumblelog" />
+<meta property="og:image" content="http://i.imgur.com/YC7BuKy.jpg" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+            <meta name="twitter:site" content="tumblr" />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:title" content="aceattorneycharactersort" />
+            <meta name="twitter:description" content=" " />
+            <meta name="twitter:app:name:iphone" content="Tumblr" />
+            <meta name="twitter:app:name:ipad" content="Tumblr" />
+            <meta name="twitter:app:name:googleplay" content="Tumblr" />
+            <meta name="twitter:app:id:iphone" content="305343404" />
+            <meta name="twitter:app:id:ipad" content="305343404" />
+            <meta name="twitter:app:id:googleplay" content="com.tumblr" />
+            <meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=snksorter&amp;referrer=twitter-cards" />
+            <meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=snksorter&amp;referrer=twitter-cards" />
+            <meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=snksorter&amp;referrer=twitter-cards" />
+    
+
+<script type="text/javascript" src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=1d79e7ed390dcc21351433ebdc4b7879"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=aceattorneycharactersort" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=01da904aa1515a5ccb68a7107eb907d5"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+</head>
+
+<body text="#000000" bgcolor="#ffffff" link="#000000" vlink="#000000" alink="#8b6b46">
+<p><center><img src="http://upload.wikimedia.org/wikipedia/en/9/99/Ace_Attorney_Logo.png"></center>
+<p class="instructions" style="text-align:center;">This is a personal character sorter and ranker for the first Ace Attorney game! This sorter currently contains all characters from Phoenix Wright: Ace Atttorney.<br /> <strong>Please try to press the tie button as infrequently as possible, as it may lead to inaccurate results.</strong><br /> Code borrowed from <a href="http://snksorter.tumblr.com/">the SNK sorter.</a> Credits for the original code go to <a href="http://www.bathkame.com/johnnys.html">Bathkame</a>. Credits for the header go to <a href="http://honokawa.deviantart.com/art/Logo-Ace-Attorney-limpio-HQ-192448460">Honokawa @ Deviantart.</a></p>
+
+<table id="mainTable" align="center">
+	<tbody><tr>
+
+		<td id="battleNumber" colspan="3" style="padding-bottom: 10px;" style="text-align:center;">Battle No.1<br>0% sorted.</td>
+	</tr>
+	<tr>
+		<td id="leftField" onclick="if(finishFlag==0)sortList(-1);" rowspan="2" style="text-align:center;"></td>
+		<td class="middleField" onclick="if(finishFlag==0)sortList(0);" style="text-align:center;">
+
+			Tie
+		</td>
+
+		<td id="rightField" onclick="if(finishFlag==0)sortList(1);" rowspan="2"style="text-align:center;"></td>
+	</tr>
+</tbody></table><br><br>
+<div id="resultField" style="text-align: center;">
+<br><br>
+</div>
+
+<script type="text/javascript">
+<!--
+	initList();
+	showImage();
+//-->
+</script>
+<!-- --><script type="text/javascript" src="http://static.websimages.com/static/global/js/webs/usersites/escort.js"></script><script type="text/javascript">if(typeof(urchinTracker)=='function'){_uacct="UA-230305-2";_udn="none";_uff=false;urchinTracker();}</script><!-- BEGIN TUMBLR CODE -->
+        
+    
+        <iframe id="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" style="position:absolute; z-index:2147483647; top:0; right:0; border:0; background-color:transparent; overflow:hidden; " src="http://assets.tumblr.com/assets/html/iframe/o.html?_v=a31ca58f6990a84dbc0f548ca4e651e2#src=http%3A%2F%2Faceattorneycharactersort.tumblr.com%2F&amp;lang=en_US&amp;name=aceattorneycharactersort&amp;avatar=http%3A%2F%2F25.media.tumblr.com%2Favatar_9cf9286a67f0_64.png&amp;title=shingeki+no+kyojin+character+sorter&amp;url=http%3A%2F%2Fsnksorter.tumblr.com%2F&amp;page_slide=slide"></iframe>    <div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://www.tumblr.com/assets/html/iframe/teaser.html#src=http%3A%2F%2Fsnksorter.tumblr.com%2F&amp;lang=en_US&amp;name=snksorter&amp;avatar=http%3A%2F%2F25.media.tumblr.com%2Favatar_9cf9286a67f0_64.png&amp;title=shingeki+no+kyojin+character+sorter&amp;url=http%3A%2F%2Fsnksorter.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div>
+
+<script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=5b8651447b41c23ba275120251b61646");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script>
+    
+    <!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]-->
+    
+        
+<iframe src="http://assets.tumblr.com/analytics.html?24dd99cdd6b147f74d7b795ff466a978" scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0 z-index:9999;" id="ga_target"></iframe>
+
+    <script>
+        var COMSCORE = true;
+        window.setTimeout(function() {
+            var analytics_frame = document.getElementById('ga_target');
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }, 1000);
+    </script>
+
+
+
+    <script type="text/javascript">
+      var _qevents = _qevents || [];
+
+      (function() {
+       var elem = document.createElement('script');
+
+       elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+       elem.async = true;
+       elem.type = "text/javascript";
+       var scpt = document.getElementsByTagName('script')[0];
+       scpt.parentNode.insertBefore(elem, scpt);
+      })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+    </script>
+    <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div>
+    </noscript>
+
+
+    <script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1381203169&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc25rc29ydGVyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=DBJJKOMNEA&K=d992ac4e4cc2879e6b27801f40d56b5fe44b82a598bb51d37cd54091614f9e13&R=https%3A%2F%2Fwww.google.ca%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1381203169&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc25rc29ydGVyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=DBJJKOMNEA&K=8aaaf29d57b0257e5cb2230fca80e452658a26bb0296cffcef5887e91b5b4d1f&R=https%3A%2F%2Fwww.google.ca%2F"></noscript>
+<script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1381203169&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Nua3NvcnRlci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6IjU4NzExOTE4NTE2IiwiYmxvZ2lkIjoiMTAzNTU3NjY3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI0ODQxODc5ODA4MCIsImJsb2dpZCI6IjEwMzU1NzY2NyIsInNvdXJjZSI6MzN9XX0=&U=MPLPGDBJKA&K=2ddfd89316ab174a64b0dc693b48e7f23c4d9af147ae1cdd6db819542109f502&R=https%3A%2F%2Fwww.google.ca%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1381203169&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Nua3NvcnRlci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6IjU4NzExOTE4NTE2IiwiYmxvZ2lkIjoiMTAzNTU3NjY3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI0ODQxODc5ODA4MCIsImJsb2dpZCI6IjEwMzU1NzY2NyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=MPLPGDBJKA&K=a52bfdb5cf6a872f82ed9768163ceb60daa0976d03f83914bd5e25ca44827d8f&R=https%3A%2F%2Fwww.google.ca%2F"></noscript>
+<!-- END TUMBLR CODE -->
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?3e91d63d5994bffc6ac211967f138b2c#http://aceattorneycharactersort.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script>
+            var _qevents = _qevents || [];
+            (function() {
+                var s = document.createElement('script');
+                var el = document.getElementsByTagName('script')[0];
+                s.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                el.parentNode.insertBefore(s, el);
+            })();
+        </script><script type="text/javascript">
+            _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+        </script><noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1409108690&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWNlYXR0b3JuZXljaGFyYWN0ZXJzb3J0LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=DNMDBBKEDO&K=371a091b1889a3489f301c174982dd15e7d54e081a9c9b6f43462a8f35f4f04e&R=http%3A%2F%2Fmostlypoptarts.tumblr.com%2Fpost%2F74224289046%2Fso-you-wanna-make-a-character-sorter'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1409108690&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWNlYXR0b3JuZXljaGFyYWN0ZXJzb3J0LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=DNMDBBKEDO&K=70d7dba7321ace6c9623f95536a4bb58aa191921aaa3ce9a7c83641432f9d902&R=http%3A%2F%2Fmostlypoptarts.tumblr.com%2Fpost%2F74224289046%2Fso-you-wanna-make-a-character-sorter"></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:140463928,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=6a64446096d84b98ca0d3b4675f21fae#src=http%3A%2F%2Faceattorneycharactersort.tumblr.com%2F&amp;lang=en_US&amp;name=aceattorneycharactersort&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_0e16ee185c5c_64.png&amp;title=Ace+Attorney+Character+Sorter&amp;url=http%3A%2F%2Faceattorneycharactersort.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=4b68ca431d72365e31bcdab5de5de7af#src=http%3A%2F%2Faceattorneycharactersort.tumblr.com%2F&amp;lang=en_US&amp;name=aceattorneycharactersort&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_0e16ee185c5c_64.png&amp;title=Ace+Attorney+Character+Sorter&amp;url=http%3A%2F%2Faceattorneycharactersort.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=8da629d0ced79004a95477450ecd8463");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>
