@@ -48,10 +48,10 @@
     <h1>click to choose</h1>
     <div id="parent">
       <div id="left">
-	<h3 id="thing1" onClick="if(il < left.length && ir < right.length)result.push(left[il++]);">This</h3>
+	<h3 id="thing1" onClick="mergeSort(1)">This</h3>
       </div>
       <div id="right">
-	<h3 id="thing2" onClick="if(il < left.length && ir < right.length)result.push(right[ir++]);">That</h3>
+	<h3 id="thing2" onClick="mergeSort(2)">That</h3>
       </div>
     </div>
     <div id="space"></div>
@@ -59,17 +59,16 @@
   </body>
   <script>
     function merge(left, right){
-        var clickedThing = 0
-        var result  = [],
-            il      = 0,
+            clickedThing = 0;
+            result  = [];
+            il      = 0;
             ir      = 0;
 
         
         
-//        
           document.getElementById("thing1").innerHTML = left[il];
           document.getElementById("thing2").innerHTML = right[ir];
-        /*while (il < left.length && ir < right.length){
+        while (il < left.length && ir < right.length){
           document.getElementById("thing1").addEventListener("click", function(){
             clickedThing = 1;
             result.push(left[il++]);
@@ -81,7 +80,7 @@
             console.log("clickThing == 2")
           });
             //if (left[il] < right[ir]){
-            /*if (clickedThing == 1){
+            if (clickedThing == 1){
                 result.push(left[il++]);
                 clickedThing = 0
                 console.log("clickThing == 0")
@@ -90,15 +89,15 @@
                 result.push(right[ir++]);
                 clickedThing = 0
                 console.log("clickThing == 0")
-            }*/
-        //}
+            }
+        }
 
         return result.concat(left.slice(il)).concat(right.slice(ir));
     }
 
-    function mergeSort(items){
+    function mergeSort(leftOrRight){
 
-        if (items.length < 2) {
+        /*if (items.length < 2) {
             return items;
         }
 
@@ -106,10 +105,30 @@
             left    = items.slice(0, middle),
             right   = items.slice(middle);
 
-        return merge(mergeSort(left), mergeSort(right));
+        return merge(mergeSort(left), mergeSort(right));*/
+        ////if (il < left.length && ir < right.length) {
+          if (leftOrRight == 1) {
+            result.push(left[il++]);
+          }
+          else {
+            result.push(right[ir++]);
+          }
+        ////}
+    }
+
+    function sortLeft(){
+      if(il < left.length && ir < right.length) {
+        result.push(left[il++]);
+      }
+    }
+
+    function sortRight(){
+      if(il < left.length && ir < right.length) {
+        result.push(right[ir++]);
+      }
     }
 
     var array = [1, 2, 3, 4, 1]
-    window.alert(mergeSort(array))
+    mergeSort(array)
   </script>
 </html>
